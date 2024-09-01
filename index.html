@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Score Keeper</title>
+</head>
+<body>
+<div class="container">
+    <div id="scoreBox">
+        <div class="header">
+            <img src="imgs/highScore.png" alt="">
+            <h4>Ready Player One? Ready Player Two?</h4>
+        </div>
+
+        <form action="">
+
+        <div class="scoresAndOptions">
+            <h2><span id="p1Display">0</span> to <span id="p2Display">0</span></h2>
+            <p id="statement">Use the buttons below to keep score</p>
+            
+
+            <label for="scoreKeeper">Playing to  </label>
+                <select name="scoreKeeper" id="scoreKeeper">
+                </select>
+        </div>
+        <div class="buttons">
+            <button id="addPlayer1" type="button" class="scoreBtn" ><p>+1 Player One</p></button>
+            <button id="addPlayer2" type="button" class="scoreBtn"><p>+1 Player Two</p></button>
+            <button id="reset" type="button"><p>Reset</p></button>
+        </div>
+        </form>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
